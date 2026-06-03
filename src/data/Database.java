@@ -17,13 +17,19 @@ public class Database {
     private static final String ACCOUNTS_FILE = "accounts.txt";
     
     /**
+     * Constructor - Initialize Database.
+     */
+    public Database() {
+    }
+    
+    /**
      * Save a new account to file.
      * 
      * @param username The username to save
      * @param password The password to save
      * @return true if account was saved successfully, false otherwise
      */
-    public static boolean saveAccount(String username, String password) {
+    public boolean saveAccount(String username, String password) {
         // TODO: Implement this method
         return false;
     }
@@ -33,7 +39,7 @@ public class Database {
      * 
      * @return List of accounts as strings or Account objects
      */
-    public static List<String> loadAccounts() {
+    public List<String> loadAccounts() {
         // TODO: Implement this method
         return new ArrayList<>();
     }
@@ -44,7 +50,7 @@ public class Database {
      * @param username The username to check
      * @return true if account exists, false otherwise
      */
-    public static boolean accountExists(String username) {
+    public boolean accountExists(String username) {
         // TODO: Implement this method
         return false;
     }
@@ -55,7 +61,7 @@ public class Database {
      * @param username The username to retrieve
      * @return account information if found, null otherwise
      */
-    public static String getAccount(String username) {
+    public String getAccount(String username) {
         // TODO: Implement this method
         return null;
     }
