@@ -1,4 +1,4 @@
-# Java Project Starter - Three-Layer Architecture
+# Java Project Starter 
 
 A template repository for student projects.
 
